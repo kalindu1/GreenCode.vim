@@ -1,11 +1,3 @@
-" Spacegray.vim -- Vim colorscheme
-" Maintainer: Akshay Hegde (github.com/ajh17)
-" Version: 1.5
-" Description: A colorscheme loosely modeled after the spacegray theme for Xcode
-" Note: This colorscheme is 256color and up only
-" Last Change: 2020 Dec 23
-
-" Setup {{{1
 hi clear
 
 if has('gui_running') && &background !=# 'dark'
@@ -104,35 +96,12 @@ hi PmenuThumb      ctermbg=235  ctermfg=137    guibg=NONE     guifg=#171717  cte
 
 hi WildMenu        ctermbg=110  ctermfg=235    guibg=#8FAFD7  guifg=#141617  cterm=bold      gui=bold
 
-if g:spacegray_low_contrast
-  hi StatusLine         ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi TablineSel         ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi TablineFill        ctermbg=236 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  if g:spacegray_use_italics
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi Tabline          ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-  else
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi Tabline          ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-  endif
-else
-  hi StatusLine         ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi StatusLineTerm     ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi TablineSel         ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  hi TablineFill        ctermbg=235 ctermfg=249 guibg=#303537 guifg=#B3B8C4 cterm=NONE   gui=NONE
-  if g:spacegray_use_italics
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-    hi Tabline          ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=italic gui=italic
-  else
-    hi StatusLineNC     ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi StatusLineTermNC ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-    hi Tabline          ctermbg=232 ctermfg=239 guibg=#1C1F20 guifg=#7C7F88 cterm=NONE   gui=NONE
-  endif
-endif
+hi StatusLine         ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
+hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
+hi TablineSel         ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
+hi TablineFill        ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
+
+
 
 hi Underlined      ctermbg=NONE ctermfg=66     guibg=NONE     guifg=#5F8787  cterm=NONE      gui=NONE
 hi Ignore          ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#BCBCBC  cterm=NONE      gui=NONE
