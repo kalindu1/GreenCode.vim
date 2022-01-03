@@ -96,10 +96,10 @@ hi PmenuThumb      ctermbg=235  ctermfg=137    guibg=NONE     guifg=#171717  cte
 
 hi WildMenu        ctermbg=110  ctermfg=235    guibg=#8FAFD7  guifg=#141617  cterm=bold      gui=bold
 
-hi StatusLine         ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
-hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
-hi TablineSel         ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
-hi TablineFill        ctermbg=236 ctermfg=249 guibg=#1F1F27 guifg=#747545 cterm=NONE   gui=NONE
+hi StatusLine         ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi TablineSel         ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi TablineFill        ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
 
 
 
