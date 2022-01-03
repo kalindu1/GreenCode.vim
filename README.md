@@ -9,6 +9,7 @@
 <h3>Set the colorscheme:</h3>
 
 ```colorscheme GreenCode```
+<h3>This color scheme is made for gvim</h3>
 
 <h5>I like using 'biogoo' airline theme with this theme</h5>
 
