@@ -27,9 +27,9 @@ let g:colors_name = 'GreenCode'
 
 " Colorscheme definitions {{{1
 if g:spacegray_low_contrast
-  hi Normal        ctermbg=235  ctermfg=250    guibg=#242424  guifg=#B3B8C4  cterm=NONE      gui=NONE
+  hi Normal        ctermbg=237  ctermfg=142    guibg=#141619  guibg=#242424    cterm=NONE      gui=NONE
 else
-  hi Normal        ctermbg=233  ctermfg=250    guibg=#141619  guifg=#747545  cterm=NONE      gui=NONE 
+  hi Normal        ctermbg=237  ctermfg=142    guibg=#141619  guifg=#747545  cterm=NONE      gui=NONE 
   " use guifg to change the color of the plain text
 endif
 
@@ -44,20 +44,20 @@ hi Conceal         ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#B3B8C4  cte
 hi NonText         ctermbg=NONE ctermfg=8      guibg=NONE     guifg=#3E4853  cterm=NONE      gui=NONE
 hi Title           ctermbg=NONE ctermfg=250    guibg=NONE     guifg=#BCE7E8  cterm=bold      gui=bold
 
-hi Constant        ctermbg=NONE ctermfg=130    guibg=NONE     guifg=#7E5552  cterm=NONE      gui=NONE
+hi Constant        ctermbg=NONE ctermfg=88    guibg=NONE     guifg=#7E5552  cterm=NONE      gui=NONE
 " True Fasle
-hi Function        ctermbg=NONE ctermfg=9      guibg=NONE     guifg=#9E7E3A  cterm=NONE      gui=NONE
+hi Function        ctermbg=NONE ctermfg=136      guibg=NONE     guifg=#9E7E3A  cterm=NONE      gui=NONE
 " eg:- def
-hi Identifier      ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#B6A082  cterm=NONE      gui=NONE
+hi Identifier      ctermbg=NONE ctermfg=215    guibg=NONE     guifg=#B6A082  cterm=NONE      gui=NONE
 " eg:- self
-hi PreProc         ctermbg=NONE ctermfg=109    guibg=NONE     guifg=#71695D  cterm=NONE      gui=NONE 
+hi PreProc         ctermbg=NONE ctermfg=137   guibg=NONE     guifg=#71695D  cterm=NONE      gui=NONE 
 " eg:- import
 
 hi Special         ctermbg=NONE ctermfg=103    guibg=NONE     guifg=#7D8FA3  cterm=NONE      gui=NONE
 hi SpecialKey      ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#4C5966  cterm=NONE      gui=NONE
 hi SpecialComment  ctermbg=NONE ctermfg=242    guibg=NONE     guifg=#657785  cterm=bold      gui=bold
 
-hi Statement       ctermbg=NONE ctermfg=13     guibg=NONE     guifg=#817551  cterm=NONE      gui=NONE
+hi Statement       ctermbg=NONE ctermfg=137     guibg=NONE     guifg=#817551  cterm=NONE      gui=NONE
 " if else statements
 hi String          ctermbg=NONE ctermfg=107    guibg=NONE     guifg=#4D5751  cterm=NONE      gui=NONE
 "eg:- "hello google"
@@ -96,10 +96,10 @@ hi PmenuThumb      ctermbg=235  ctermfg=137    guibg=NONE     guifg=#171717  cte
 
 hi WildMenu        ctermbg=110  ctermfg=235    guibg=#8FAFD7  guifg=#141617  cterm=bold      gui=bold
 
-hi StatusLine         ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
-hi StatusLineTerm     ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
-hi TablineSel         ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
-hi TablineFill        ctermbg=236 ctermfg=249 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi StatusLine         ctermbg=142 ctermfg=237 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi StatusLineTerm     ctermbg=142 ctermfg=237 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi TablineSel         ctermbg=142 ctermfg=237 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
+hi TablineFill        ctermbg=142 ctermfg=237 guibg=#747545  guifg=#1F1F27  cterm=NONE   gui=NONE
 
 
 
