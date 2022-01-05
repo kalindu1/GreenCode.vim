@@ -27,9 +27,9 @@ let g:colors_name = 'GreenCode'
 
 " Colorscheme definitions {{{1
 if g:spacegray_low_contrast
-  hi Normal        ctermbg=237  ctermfg=142    guibg=#141619  guibg=#242424    cterm=NONE      gui=NONE
+  hi Normal        ctermbg=237  ctermfg=142    guibg=#212121  guibg=#242424    cterm=NONE      gui=NONE
 else
-  hi Normal        ctermbg=237  ctermfg=142    guibg=#141619  guifg=#747545  cterm=NONE      gui=NONE 
+  hi Normal        ctermbg=237  ctermfg=142    guibg=#212121  guifg=#747545  cterm=NONE      gui=NONE 
   " use guifg to change the color of the plain text
 endif
 
@@ -85,7 +85,7 @@ hi DiffText        ctermbg=60   ctermfg=251    guibg=#5F5F87   guifg=#D0D0D0 cte
 hi helpLeadBlank   ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 hi helpNormal      ctermbg=NONE ctermfg=NONE   guibg=NONE     guifg=NONE     cterm=NONE      gui=NONE
 
-hi LineNr          ctermbg=NONE ctermfg=8      guibg=#141619  guifg=#3E4853  cterm=NONE      gui=NONE
+hi LineNr          ctermbg=NONE ctermfg=8      guibg=#212121  guifg=#3E4853  cterm=NONE      gui=NONE
 " line number
 hi CursorLineNr    ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#808080  cterm=NONE      gui=NONE
 
